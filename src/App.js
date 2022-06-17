@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Filter from './components/FilterSearch/Filter';
+import Counter from './components/Counter/Counter';
+import DisplayList from './components/DispayList/DisplayList';
+import Checklist from './components/Checklist/Checklist';
+import RestAPI from './components/RestAPI/RestAPI';
+import ToDo from './components/ToDo/ToDo';
+import Login from './components/Login/Login';
+import Accordion from './components/Accordion/Accordion';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToDo />
+      <Login />
+      <Accordion />
+      <Filter />
+      <Counter/>
+      <DisplayList />
+      <Checklist />
+      <RestAPI />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.catFacts{
+    text-align: center;
+    margin: 3%;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: rgb(240, 174, 193);
+}
+.catFacts h2{
+    margin: 0 20% 0 20%;
+}
+
+.catFacts button{
+    width: 25%;
+    font-size: 1rem;
+    padding: 2%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    border-radius: 15px;
+    border:none;
+    background-color: rgb(242, 114, 178);
+}

@@ -1,0 +1,21 @@
+.login{
+    text-align: center;
+    margin: 3%;
+    padding: 5%;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.login button{
+    border: none;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.login input{
+    border: none;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 5px;
+}
